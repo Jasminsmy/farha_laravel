@@ -1,0 +1,27 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Your custom styles
+body {
+    background-color: #f8f9fa; // Set a background color
+}
+
+.container {
+    margin-top: 00px; // Add some top margin to all containers
+}
+
+.btn-primary {
+    background-color: #007bff; // Customize the primary button color
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; // Change the color on hover
+    border-color: #0056b3;
+}
